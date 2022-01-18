@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #000020;
+    font-family: sans-serif;
+    background-image: url('images/earth-sunrise.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+h1{
+    font-weight: 100;
+    font-size: 66px;
+    text-shadow: 0 0 10px #000000;
+    text-transform: uppercase;
+}
+
+p .intro {
+    font-size: 26px;
+    font-weight: 200;
+    text-shadow: 0 0 10px #000000;
+}
+
+#content{
+    margin-bottom: 50px;
+    padding: 8px;
+}
+
+#video{
+    width: 100%;
+}
+
+/*--------------------BOTTOM TABS----------------*/
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+
+    box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    background: linear-gradient(#007dc1, #0061a7);
+    border-radius: 3px;
+    border: 1px solid #124d77;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+    padding-top: 18px;
+}
